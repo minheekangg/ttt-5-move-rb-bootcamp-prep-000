@@ -13,6 +13,6 @@ end
 
 
 def move(board, index, value = "X")
-  board[index] = value
-  return board
+  return board[index] = value
+
 end
